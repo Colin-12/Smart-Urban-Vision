@@ -1,0 +1,19 @@
+[
+  {
+    "image": "urban_scene_01.jpg",
+    "detections": [
+      {"class_name": "person",  "confidence": 0.91, "bbox": [120, 80, 200, 320]},
+      {"class_name": "car",     "confidence": 0.88, "bbox": [300, 150, 500, 280]},
+      {"class_name": "graffiti","confidence": 0.76, "bbox": [50,  200, 180, 380]}
+    ],
+    "masks_available": true
+  },
+  {
+    "image": "urban_scene_02.jpg",
+    "detections": [
+      {"class_name": "bicycle", "confidence": 0.82, "bbox": [200, 100, 340, 260]},
+      {"class_name": "person",  "confidence": 0.95, "bbox": [400, 60,  480, 300]}
+    ],
+    "masks_available": true
+  }
+]

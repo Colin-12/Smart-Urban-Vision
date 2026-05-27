@@ -1,0 +1,8 @@
+{
+  "unique_objects_tracked": 7,
+  "fps_average": 18.5,
+  "total_frames": 450,
+  "duration_seconds": 24.3,
+  "classes_detected": ["person", "car", "bicycle"],
+  "class_counts": {"person": 4, "car": 2, "bicycle": 1}
+}
