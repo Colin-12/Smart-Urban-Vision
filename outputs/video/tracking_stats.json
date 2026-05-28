@@ -1,8 +1,523 @@
 {
-  "unique_objects_tracked": 7,
-  "fps_average": 18.5,
-  "total_frames": 450,
-  "duration_seconds": 24.3,
-  "classes_detected": ["person", "car", "bicycle"],
-  "class_counts": {"person": 4, "car": 2, "bicycle": 1}
+  "video_source": "urban_sample.mp4",
+  "total_frames": 901,
+  "duration_seconds": 30.0,
+  "fps_average": 1297.3,
+  "unique_objects_tracked": 72,
+  "classes_detected": [
+    "bus",
+    "car",
+    "truck"
+  ],
+  "class_counts": {
+    "bus": 8,
+    "car": 58,
+    "truck": 6
+  },
+  "track_summary": [
+    {
+      "track_id": 1,
+      "class_name": "car",
+      "frames_visible": 23,
+      "first_frame": 0,
+      "last_frame": 24
+    },
+    {
+      "track_id": 2,
+      "class_name": "car",
+      "frames_visible": 70,
+      "first_frame": 2,
+      "last_frame": 101
+    },
+    {
+      "track_id": 3,
+      "class_name": "car",
+      "frames_visible": 1,
+      "first_frame": 4,
+      "last_frame": 4
+    },
+    {
+      "track_id": 7,
+      "class_name": "car",
+      "frames_visible": 36,
+      "first_frame": 6,
+      "last_frame": 54
+    },
+    {
+      "track_id": 12,
+      "class_name": "car",
+      "frames_visible": 27,
+      "first_frame": 19,
+      "last_frame": 73
+    },
+    {
+      "track_id": 13,
+      "class_name": "car",
+      "frames_visible": 33,
+      "first_frame": 25,
+      "last_frame": 70
+    },
+    {
+      "track_id": 14,
+      "class_name": "car",
+      "frames_visible": 2,
+      "first_frame": 27,
+      "last_frame": 28
+    },
+    {
+      "track_id": 20,
+      "class_name": "car",
+      "frames_visible": 3,
+      "first_frame": 42,
+      "last_frame": 44
+    },
+    {
+      "track_id": 25,
+      "class_name": "car",
+      "frames_visible": 1,
+      "first_frame": 50,
+      "last_frame": 50
+    },
+    {
+      "track_id": 26,
+      "class_name": "car",
+      "frames_visible": 26,
+      "first_frame": 51,
+      "last_frame": 76
+    },
+    {
+      "track_id": 27,
+      "class_name": "car",
+      "frames_visible": 30,
+      "first_frame": 71,
+      "last_frame": 109
+    },
+    {
+      "track_id": 30,
+      "class_name": "car",
+      "frames_visible": 21,
+      "first_frame": 114,
+      "last_frame": 177
+    },
+    {
+      "track_id": 34,
+      "class_name": "bus",
+      "frames_visible": 13,
+      "first_frame": 124,
+      "last_frame": 145
+    },
+    {
+      "track_id": 36,
+      "class_name": "car",
+      "frames_visible": 6,
+      "first_frame": 132,
+      "last_frame": 147
+    },
+    {
+      "track_id": 40,
+      "class_name": "car",
+      "frames_visible": 1,
+      "first_frame": 139,
+      "last_frame": 139
+    },
+    {
+      "track_id": 41,
+      "class_name": "car",
+      "frames_visible": 15,
+      "first_frame": 144,
+      "last_frame": 160
+    },
+    {
+      "track_id": 43,
+      "class_name": "car",
+      "frames_visible": 26,
+      "first_frame": 174,
+      "last_frame": 207
+    },
+    {
+      "track_id": 44,
+      "class_name": "car",
+      "frames_visible": 34,
+      "first_frame": 186,
+      "last_frame": 228
+    },
+    {
+      "track_id": 47,
+      "class_name": "car",
+      "frames_visible": 14,
+      "first_frame": 203,
+      "last_frame": 218
+    },
+    {
+      "track_id": 52,
+      "class_name": "car",
+      "frames_visible": 44,
+      "first_frame": 212,
+      "last_frame": 300
+    },
+    {
+      "track_id": 54,
+      "class_name": "car",
+      "frames_visible": 64,
+      "first_frame": 215,
+      "last_frame": 299
+    },
+    {
+      "track_id": 58,
+      "class_name": "car",
+      "frames_visible": 16,
+      "first_frame": 236,
+      "last_frame": 261
+    },
+    {
+      "track_id": 63,
+      "class_name": "car",
+      "frames_visible": 32,
+      "first_frame": 247,
+      "last_frame": 286
+    },
+    {
+      "track_id": 64,
+      "class_name": "bus",
+      "frames_visible": 2,
+      "first_frame": 252,
+      "last_frame": 253
+    },
+    {
+      "track_id": 65,
+      "class_name": "car",
+      "frames_visible": 1,
+      "first_frame": 255,
+      "last_frame": 255
+    },
+    {
+      "track_id": 69,
+      "class_name": "car",
+      "frames_visible": 18,
+      "first_frame": 262,
+      "last_frame": 315
+    },
+    {
+      "track_id": 72,
+      "class_name": "car",
+      "frames_visible": 43,
+      "first_frame": 271,
+      "last_frame": 345
+    },
+    {
+      "track_id": 82,
+      "class_name": "car",
+      "frames_visible": 41,
+      "first_frame": 307,
+      "last_frame": 354
+    },
+    {
+      "track_id": 84,
+      "class_name": "car",
+      "frames_visible": 9,
+      "first_frame": 314,
+      "last_frame": 325
+    },
+    {
+      "track_id": 85,
+      "class_name": "car",
+      "frames_visible": 58,
+      "first_frame": 317,
+      "last_frame": 379
+    },
+    {
+      "track_id": 96,
+      "class_name": "car",
+      "frames_visible": 41,
+      "first_frame": 340,
+      "last_frame": 388
+    },
+    {
+      "track_id": 97,
+      "class_name": "car",
+      "frames_visible": 54,
+      "first_frame": 341,
+      "last_frame": 402
+    },
+    {
+      "track_id": 98,
+      "class_name": "car",
+      "frames_visible": 2,
+      "first_frame": 342,
+      "last_frame": 345
+    },
+    {
+      "track_id": 99,
+      "class_name": "car",
+      "frames_visible": 2,
+      "first_frame": 342,
+      "last_frame": 346
+    },
+    {
+      "track_id": 101,
+      "class_name": "truck",
+      "frames_visible": 3,
+      "first_frame": 345,
+      "last_frame": 348
+    },
+    {
+      "track_id": 108,
+      "class_name": "car",
+      "frames_visible": 97,
+      "first_frame": 375,
+      "last_frame": 543
+    },
+    {
+      "track_id": 109,
+      "class_name": "car",
+      "frames_visible": 46,
+      "first_frame": 380,
+      "last_frame": 451
+    },
+    {
+      "track_id": 110,
+      "class_name": "car",
+      "frames_visible": 7,
+      "first_frame": 387,
+      "last_frame": 395
+    },
+    {
+      "track_id": 111,
+      "class_name": "car",
+      "frames_visible": 30,
+      "first_frame": 388,
+      "last_frame": 423
+    },
+    {
+      "track_id": 113,
+      "class_name": "car",
+      "frames_visible": 30,
+      "first_frame": 434,
+      "last_frame": 471
+    },
+    {
+      "track_id": 120,
+      "class_name": "truck",
+      "frames_visible": 52,
+      "first_frame": 489,
+      "last_frame": 547
+    },
+    {
+      "track_id": 121,
+      "class_name": "car",
+      "frames_visible": 68,
+      "first_frame": 509,
+      "last_frame": 606
+    },
+    {
+      "track_id": 124,
+      "class_name": "car",
+      "frames_visible": 1,
+      "first_frame": 529,
+      "last_frame": 529
+    },
+    {
+      "track_id": 126,
+      "class_name": "bus",
+      "frames_visible": 3,
+      "first_frame": 549,
+      "last_frame": 551
+    },
+    {
+      "track_id": 128,
+      "class_name": "bus",
+      "frames_visible": 11,
+      "first_frame": 571,
+      "last_frame": 584
+    },
+    {
+      "track_id": 130,
+      "class_name": "car",
+      "frames_visible": 14,
+      "first_frame": 583,
+      "last_frame": 605
+    },
+    {
+      "track_id": 131,
+      "class_name": "car",
+      "frames_visible": 9,
+      "first_frame": 586,
+      "last_frame": 594
+    },
+    {
+      "track_id": 133,
+      "class_name": "truck",
+      "frames_visible": 2,
+      "first_frame": 593,
+      "last_frame": 594
+    },
+    {
+      "track_id": 136,
+      "class_name": "car",
+      "frames_visible": 32,
+      "first_frame": 614,
+      "last_frame": 652
+    },
+    {
+      "track_id": 137,
+      "class_name": "car",
+      "frames_visible": 1,
+      "first_frame": 615,
+      "last_frame": 615
+    },
+    {
+      "track_id": 138,
+      "class_name": "car",
+      "frames_visible": 49,
+      "first_frame": 617,
+      "last_frame": 694
+    },
+    {
+      "track_id": 141,
+      "class_name": "car",
+      "frames_visible": 9,
+      "first_frame": 643,
+      "last_frame": 654
+    },
+    {
+      "track_id": 144,
+      "class_name": "car",
+      "frames_visible": 23,
+      "first_frame": 650,
+      "last_frame": 674
+    },
+    {
+      "track_id": 146,
+      "class_name": "bus",
+      "frames_visible": 51,
+      "first_frame": 664,
+      "last_frame": 765
+    },
+    {
+      "track_id": 148,
+      "class_name": "car",
+      "frames_visible": 177,
+      "first_frame": 684,
+      "last_frame": 900
+    },
+    {
+      "track_id": 154,
+      "class_name": "car",
+      "frames_visible": 17,
+      "first_frame": 709,
+      "last_frame": 728
+    },
+    {
+      "track_id": 156,
+      "class_name": "bus",
+      "frames_visible": 22,
+      "first_frame": 715,
+      "last_frame": 745
+    },
+    {
+      "track_id": 161,
+      "class_name": "truck",
+      "frames_visible": 3,
+      "first_frame": 770,
+      "last_frame": 772
+    },
+    {
+      "track_id": 162,
+      "class_name": "truck",
+      "frames_visible": 3,
+      "first_frame": 776,
+      "last_frame": 780
+    },
+    {
+      "track_id": 163,
+      "class_name": "car",
+      "frames_visible": 2,
+      "first_frame": 782,
+      "last_frame": 785
+    },
+    {
+      "track_id": 164,
+      "class_name": "truck",
+      "frames_visible": 1,
+      "first_frame": 786,
+      "last_frame": 786
+    },
+    {
+      "track_id": 167,
+      "class_name": "car",
+      "frames_visible": 17,
+      "first_frame": 791,
+      "last_frame": 833
+    },
+    {
+      "track_id": 172,
+      "class_name": "car",
+      "frames_visible": 64,
+      "first_frame": 801,
+      "last_frame": 893
+    },
+    {
+      "track_id": 174,
+      "class_name": "car",
+      "frames_visible": 1,
+      "first_frame": 807,
+      "last_frame": 807
+    },
+    {
+      "track_id": 179,
+      "class_name": "car",
+      "frames_visible": 3,
+      "first_frame": 832,
+      "last_frame": 834
+    },
+    {
+      "track_id": 180,
+      "class_name": "car",
+      "frames_visible": 14,
+      "first_frame": 834,
+      "last_frame": 893
+    },
+    {
+      "track_id": 184,
+      "class_name": "bus",
+      "frames_visible": 10,
+      "first_frame": 841,
+      "last_frame": 857
+    },
+    {
+      "track_id": 192,
+      "class_name": "bus",
+      "frames_visible": 40,
+      "first_frame": 857,
+      "last_frame": 900
+    },
+    {
+      "track_id": 195,
+      "class_name": "car",
+      "frames_visible": 2,
+      "first_frame": 869,
+      "last_frame": 870
+    },
+    {
+      "track_id": 197,
+      "class_name": "car",
+      "frames_visible": 2,
+      "first_frame": 873,
+      "last_frame": 874
+    },
+    {
+      "track_id": 202,
+      "class_name": "car",
+      "frames_visible": 1,
+      "first_frame": 885,
+      "last_frame": 885
+    },
+    {
+      "track_id": 206,
+      "class_name": "car",
+      "frames_visible": 4,
+      "first_frame": 897,
+      "last_frame": 900
+    }
+  ]
 }
