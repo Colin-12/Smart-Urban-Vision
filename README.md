@@ -61,7 +61,7 @@ smart-urban-vision/
 
 | Personne | Rôle |
 |----------|------|
-| Personne A | Preprocessing & Classification CNN |
-| Personne B | Détection YOLO & Segmentation |
-| Personne C | Vidéo & Tracking |
-| Personne D | Dashboard & Intégration |
+| AYMEN | Preprocessing & Classification CNN |
+| TAHA YASSINE | Détection YOLO & Segmentation |
+| COLIN | Vidéo & Tracking |
+| STEVEN PETTRO | Dashboard & Intégration |
